@@ -1,14 +1,13 @@
 const mysql = require("mysql");
 const inquirer = require("inquirer");
 const cTable = require("console.table");
-const { start } = require("repl");
 
 //connect to MySQL
 const connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "@BatZinc2020",
+    password: "******",
     database: "employee_db"
 });
 
